@@ -1,0 +1,18 @@
+ * - Change
+ F - Bug fix
+ + - New feature
+
+----------------
+--VERSION 0.3---
+----------------
+ * Now on GitHub
+ * All functions rewrited
+ * All images replaced
+ F Fix bug with repair tool on ground
+ + Now 43 repair recipes
+ + Now every repair have chance 2% to fully fix item
+ 
+----------------
+--VERSION 0.2b--
+----------------
+ * Base version
