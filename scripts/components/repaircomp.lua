@@ -4,7 +4,7 @@ local repaircomp = Class(function(self, inst)
 	self.repair_value = 1
 end)
 
-----REPAIR COMP REPAIR DO
+----REPAIRCOMP REPAIR DO
 function repaircomp:DoRepair(target, doer)
 	if target.components.nlrepair then
 		repaircomp:repairsome(self, target, doer, target.components.nlrepair.resource, target.components.nlrepair.value, target.components.nlrepair.errorstr)
@@ -19,16 +19,18 @@ function repaircomp:repairsome(self, target, doer, resource, value, errorstr)
 			local modvariable = target.components.finiteuses:GetPercent() + value
 			if modvariable > 1 then
 				modvariable = 1
-			elseif math.random < TUNING.NL_IFEELUCK then
+			elseif math.random() < TUNING.NL_IFEELUCK then
 				modvariable = 1
+				doer.components.talker:Say(STRINGS.NL_REPAIRTOOL.FEELLUCK)
 			end
 			target.components.finiteuses:SetPercent(modvariable)
 		elseif target.components.fueled then
 			local modvariable = target.components.fueled:GetPercent() + value
 			if modvariable > 1 then
 				modvariable = 1
-			elseif math.random < TUNING.NL_IFEELUCK then
+			elseif math.random() < TUNING.NL_IFEELUCK then
 				modvariable = 1
+				doer.components.talker:Say(STRINGS.NL_REPAIRTOOL.FEELLUCK)
 			end
 			target.components.fueled:SetPercent(modvariable)
 		end

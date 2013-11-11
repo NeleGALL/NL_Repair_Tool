@@ -11,13 +11,13 @@ end
 local function fn(Sim)
 	local inst = CreateEntity()
 	inst.entity:AddTransform()
-	inst.entity:AddAnimState()
+	local anim = inst.entity:AddAnimState()
     
     MakeInventoryPhysics(inst)
 
-    inst.AnimState:SetBank("nightmaresword")
-    --inst.AnimState:SetBuild("magnifyin")
-    inst.AnimState:PlayAnimation("idle")
+    anim:SetBank("lighter")
+    anim:SetBuild("repairtool")
+    anim:PlayAnimation("idle")
     inst:AddComponent("inspectable")
     
     inst:AddComponent("inventoryitem")

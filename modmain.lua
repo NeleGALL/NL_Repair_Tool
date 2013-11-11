@@ -27,9 +27,22 @@ STRINGS.NL_REPAIRTOOL.NEEDFLINT = "I need a flint to fix it"
 STRINGS.NL_REPAIRTOOL.NEEDREDGEM = "Red gem missing"
 STRINGS.NL_REPAIRTOOL.NEEDBLUEGEM = "I need a blue gem"
 STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM = "I need some special purple gem"
-STRINGS.NL_REPAIRTOOL.NEEDNIGHTMARE = "Am I mad? I need nightmare fuel!"
+STRINGS.NL_REPAIRTOOL.NEEDYELLOWGEM = "Yellow gem is missing"
+STRINGS.NL_REPAIRTOOL.NEEDGREENGEM = "Where is my green precious?"
+STRINGS.NL_REPAIRTOOL.NEEDNIGHTMAREFUEL = "Am I mad? I need nightmare fuel!"
+STRINGS.NL_REPAIRTOOL.NEEDMANRABBITFUR = "Bunnyman... I need your fur!"
+STRINGS.NL_REPAIRTOOL.NEEDSILK = "I need silk thread to fix it"
+STRINGS.NL_REPAIRTOOL.NEEDWOOD = "Wooden log needed"
+STRINGS.NL_REPAIRTOOL.NEEDMARBLE = "I NEED MARBLE!"
+STRINGS.NL_REPAIRTOOL.NEEDPIGSKIN = "Pig... I need your skin!"
+STRINGS.NL_REPAIRTOOL.NEEDBEEFALOWOOL = "Shave some beefalo"
+STRINGS.NL_REPAIRTOOL.NEEDBEEFALOHORN = "Kill some beefalo for their horn"
+STRINGS.NL_REPAIRTOOL.NEEDTRUNK = "Koalefant must be killed"
+STRINGS.NL_REPAIRTOOL.NEEDWINTERTRUNK = "Koalefant. Winter version. I need trunk."
+STRINGS.NL_REPAIRTOOL.NEEDHOUNDS = "Hound's teeth needed"
+STRINGS.NL_REPAIRTOOL.NEEDSLURPER = "I must kill some slurpers"
 STRINGS.NL_REPAIRTOOL.NEEDTHULECITE = "I need... eh... Some thulecite"
-STRINGS.NL_REPAIRTOOL.NEEDSLURPER = "I must kill some Slurpers"
+STRINGS.NL_REPAIRTOOL.FEELLUCK = "Good work!"
 
 STRINGS.NAMES.REPAIRTOOL = "Repair tool"
 STRINGS.RECIPE_DESC.REPAIRTOOL = "Some stuff to fix other stuff."
@@ -97,19 +110,19 @@ nl_prefabload("batbat",			0.5,	"purplegem",		STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM
 nl_prefabload("telestaff",		0.5,	"purplegem",		STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM)
 nl_prefabload("purpleamulet",	0.5,	"purplegem",		STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM)
 ----YELLOW GEM
-nl_prefabload("yellowstaff",	0.5,	"yellowgem",		STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM)
+nl_prefabload("yellowstaff",	0.5,	"yellowgem",		STRINGS.NL_REPAIRTOOL.NEEDYELLOWGEM)
 ----GREEN GEM
-nl_prefabload("greenstaff",		0.5,	"greengem",			STRINGS.NL_REPAIRTOOL.NEEDPURPLEGEM)
+nl_prefabload("greenstaff",		0.5,	"greengem",			STRINGS.NL_REPAIRTOOL.NEEDGREENGEM)
 ----NIGHTMARE FUEL
-nl_prefabload("nightsword",		0.20,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMARE)
-nl_prefabload("armor_sanity",	0.2,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMARE)
-nl_prefabload("onemanband",		0.25,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMARE)
+nl_prefabload("nightsword",		0.20,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMAREFUEL)
+nl_prefabload("armor_sanity",	0.2,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMAREFUEL)
+nl_prefabload("onemanband",		0.25,	"nightmarefuel",	STRINGS.NL_REPAIRTOOL.NEEDNIGHTMAREFUEL)
 ----FUR
-nl_prefabload("bedroll_furry",	0.66,	"manrabbit_tail",	STRINGS.NL_REPAIRTOOL.NEEDFUR)
+nl_prefabload("bedroll_furry",	0.66,	"manrabbit_tail",	STRINGS.NL_REPAIRTOOL.NEEDMANRABBITFUR)
 ----SILK
 nl_prefabload("bugnet",			0.5,	"silk",				STRINGS.NL_REPAIRTOOL.NEEDSILK)
 nl_prefabload("fishingrod",		0.5,	"silk",				STRINGS.NL_REPAIRTOOL.NEEDSILK)
-nl_prefabload("tophat",			0.5,	"silk",				STRINGS.NL_REPAIRTOOL.NEEDSILK)
+nl_prefabload("tophat",			0.20,	"silk",				STRINGS.NL_REPAIRTOOL.NEEDSILK)
 nl_prefabload("beehat",			0.13,	"silk",				STRINGS.NL_REPAIRTOOL.NEEDSILK)
 ----WOOD
 nl_prefabload("armorwood",		0.13,	"log",				STRINGS.NL_REPAIRTOOL.NEEDWOOD)
@@ -118,16 +131,15 @@ nl_prefabload("armormarble",	0.1,	"marble",			STRINGS.NL_REPAIRTOOL.NEEDMARBLE)
 ----PIG SKIN
 nl_prefabload("footballhat",	0.66,	"pigskin",			STRINGS.NL_REPAIRTOOL.NEEDPIGSKIN)
 ----BEEFALO WOOL
-nl_prefabload("winterhat",		0.25,	"beefalowool",		STRINGS.NL_REPAIRTOOL.NEEDBEEFALO)
-----BEEFALO HORD
-nl_prefabload("beefalohat",		0.25,	"horn",				STRINGS.NL_REPAIRTOOL.NEEDHORN)
+nl_prefabload("winterhat",		0.25,	"beefalowool",		STRINGS.NL_REPAIRTOOL.NEEDBEEFALOWOOL)
+----BEEFALO HORN
+nl_prefabload("beefalohat",		0.66,	"horn",				STRINGS.NL_REPAIRTOOL.NEEDBEEFALOHORN)
 ----KOALEFANT TRUNK
 nl_prefabload("trunkvest_summer",0.25,	"trunk_summer",		STRINGS.NL_REPAIRTOOL.NEEDTRUNK)
 ----WINTER KOALEFANT TRUNK
-nl_prefabload("trunkvest_winter",0.25,	"trunk_winter",		STRINGS.NL_REPAIRTOOL.NEEDWTRUNK)
-----
+nl_prefabload("trunkvest_winter",0.25,	"trunk_winter",		STRINGS.NL_REPAIRTOOL.NEEDWINTERTRUNK)
 ----HOUNDS TOOTH
-nl_prefabload("winterhat",		0.25,	"beefalowool",		STRINGS.NL_REPAIRTOOL.NEEDHOUNDS)
+nl_prefabload("sweatervest",	0.13,	"houndstooth",		STRINGS.NL_REPAIRTOOL.NEEDHOUNDS)
 ----SLURPER PELT
 nl_prefabload("armor_slurper",	0.2,	"slurper_pelt",		STRINGS.NL_REPAIRTOOL.NEEDSLURPER)
 ----THULECITE POSTINIT
