@@ -1,0 +1,78 @@
+﻿Made by NeleGALL
+Github released 11.11.2013
+GITHUB: https://github.com/NeleGALL/NL_Repair_Tool
+Changelog: https://raw.github.com/NeleGALL/NL_Repair_Tool/master/CHANGELOG
+Steam Workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=192751091
+
+This mod add repair tool that can fix nearly all items.
+------------------------------------ 
+Добавляет инструмент, позволяющий ремонтировать почти все предметы.
+Сам инструмент не ломается, но требует наличие ресурсов для ремонта. 
+При любой починке есть шанс 2% полностью починить предмет.
+Рецепт: 1 верёвка, 2 золотых самородка, 2 палки. 
+------------------------------------ 
+Recipe to craft tool: 1 rope, 2 gold and 2 twigs.
+Every repair have 2% chance to fully fix item.
+Tool have unlimited uses, but repair cost some resources: 
+1 Gold nugget: 
+- Golden axe		50%
+- Golden pickaxe 	50%
+- Golden shovel 	50%
+1 flint: 
+- Axe 				50%
+- Pickaxe 			50%
+- Shovel 			50%
+- Pitchfork 		50%
+- Spear 			50%
+- Hammer (yep) 		50%
+1 red gem: 
+- Red amulet 		50%
+- Fire staff 		50%
+1 blue gem: 
+- Blue amulet 		50%
+- Ice staff 		50%
+1 purple gem: 
+- Bat bat 			50%
+- Telestaff 		50%
+- Purple amulet 	50%
+1 yellow gem:
+- Star caller's staff 50%
+1 green gem:
+- Green staff		50%
+1 Nightmare fuel:
+- Night armour		20%
+- Dark sword		20%
+- One-man band		25%
+1 Bunny Puff:
+- Furry bedroll		66%
+1 Silk:
+- Bug net			50%
+- Fishing rod		50%
+- Top hat			20%
+- Beekeeper hat		13%
+1 Wooden log:
+- Log suit			13%
+1 Marble:
+- Marlbe suit		10%
+1 Pig skin:
+- Football helmet	66%
+1 Beefalo wool:
+- Winter hat		25%
+1 Beefalo horn:
+- Beefalo hat		66%
+1 Koalefant trunk:
+- Breezy vest		25%
+1 Winter koalefant trunk:
+- Puffy vest		25%
+1 Hound's tooth:
+- Dapper Vest		13%
+1 Slurper pelt:
+- Belt of hunger	20%
+1 thulecite: 
+- Pick/Axe			60%
+- Magiluminescence	60%
+- Green amulet 		60%
+- The Lazy Forager	60%
+- Thulecite crown	20%
+- Thulectie suit	20%
+- Thulectie club	30%
