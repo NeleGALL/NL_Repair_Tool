@@ -24,15 +24,17 @@ function repaircomp:repairsome(self, target, doer, resource, value, errorstr)
 				doer.components.talker:Say(STRINGS.NL_REPAIRTOOL.FEELLUCK)
 			end
 			target.components.finiteuses:SetPercent(modvariable)
-		elseif target.components.fueled then
-			local modvariable = target.components.fueled:GetPercent() + value
+		elseif target.components.armor then
+			local modvariable = target.components.armor:GetPercent() + value
 			if modvariable > 1 then
 				modvariable = 1
 			elseif math.random() < TUNING.NL_IFEELUCK then
 				modvariable = 1
 				doer.components.talker:Say(STRINGS.NL_REPAIRTOOL.FEELLUCK)
 			end
-			target.components.fueled:SetPercent(modvariable)
+			target.components.armor:SetPercent(modvariable)
+		else
+			doer.components.talker:Say("Something went wrong... Tell to creator of this mod!!!")
 		end
 		if self.onsewn then
 			self.onsewn(self.inst, target, doer)

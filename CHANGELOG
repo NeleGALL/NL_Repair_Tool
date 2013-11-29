@@ -3,6 +3,12 @@
  + - New feature
 
 ----------------
+--VERSION 0.4---
+----------------
+ F Fix BIG bug with repair of armors
+ * Added forum link on ingame mod page
+
+----------------
 --VERSION 0.3---
 ----------------
  * Now on GitHub
@@ -11,7 +17,7 @@
  F Fix bug with repair tool on ground
  + Now 43 repair recipes
  + Now every repair have chance 2% to fully fix item
- 
+
 ----------------
 --VERSION 0.2b--
 ----------------

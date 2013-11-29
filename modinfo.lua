@@ -2,11 +2,8 @@
 name = "Repair tool"
 description = "Repair tool that consume some ingredients to fix stuff."
 author = "NeleGALL"
-version = "0b"
+version = "0.4"
 icon_atlas = "repair_icon.xml"
 icon = "repair_icon.tex"
-
-forumthread = ""
-
-
 api_version = 4
+forumthread = "/topic/29456-repair-tool-mod/"
